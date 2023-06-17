@@ -6,7 +6,7 @@
 /*   By: hchairi <hchairi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/11 19:26:16 by hchairi           #+#    #+#             */
-/*   Updated: 2023/06/17 19:28:41 by hchairi          ###   ########.fr       */
+/*   Updated: 2023/06/17 20:01:53 by hchairi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ void	my_usleep(size_t start_time, int time, t_data *data)
 		pthread_mutex_lock(&data->mutex_check);
 	}
 	pthread_mutex_unlock(&data->mutex_check);
-	
 }
 
 void	print_status(t_philo *philo, char *s, int is_dead)
