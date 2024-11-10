@@ -23,6 +23,6 @@ The Philosophers project is a coding challenge at 42 that simulates the classic 
 To get started with the Philosophers project, clone the repository:
 
 ```bash
-git clone https://github.com/HoudaChairi/Philo.git
-cd Philo
+git clone https://github.com/HoudaChairi/42_Philosopher.git
+cd 42_Philosopher
 ```
